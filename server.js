@@ -16,7 +16,7 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:3000', // React dev server
-    // frontend vercel app
+    'https://konekt-blue.vercel.app/'// frontend vercel app
   ]
 }));
 app.use(express.json());
